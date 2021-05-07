@@ -7,9 +7,69 @@
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    テスト
+    <header>
+      <div class="header-container">
+        <div class="header-name">片山慎太郎</div>
+        <div class="header-list">
+          <nav><a href="#first">出身</a></nav>
+          <nav><a href="#second">経歴</a></nav>
+          <nav><a href="#third">趣味</a></nav>
+          <p id="contact">問い合わせ</p>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <!-- メニュー -->
+      <div class="menu hidden" id="menu">
+        <span class="material-icons" id="close">close</span>
+        <ul>
+          <li><a href="#">リンク1</a></li>
+          <li><a href="#">リンク2</a></li>
+          <li><a href="#">リンク3</a></li>
+        </ul>
+      </div>
+      <!-- メニュー -->
+      <h1>Shintaro Katayama</h1>
+    </div>
+    <div class="main-container">
+      <div class="main-image"></div>
+      <div class="intro">
+        <h2 id="first">出身</h2>
+        <p>
+          京都府の宇治市という町で育ちました。<br />小学校から高校までずっと野球をしていました。
+        </p>
+        <h2 id="second">経歴</h2>
+        <p>
+          現在は同志社大学政策学部3回生です。<br />大学では主に政治学や政策立案について学んでいます。
+        </p>
+        <h2 id="third">趣味</h2>
+        <p>
+          趣味は読書です。<br />コロナで外に出ることがなくなり、読書を始めました。<br />その際に読書の魅力にはまってしまったのです。
+        </p>
+        <div>
+          <h3>
+            おすすめの本をまとめました。<br />気になる方は<span class="book"
+              >こちら</span
+            >をクリック！！
+          </h3>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-list">
+        <h2>お問い合わせ</h2>
+        <p>京都府宇治市00-00</p>
+        <p>TEL: 12-3456-78</p>
+        <p>FAX: 12-3456-78</p>
+        <p>info@mysite.co.jp</p>
+      </div>
+    </footer>
     <script src="main.js"></script>
   </body>
 </html>
