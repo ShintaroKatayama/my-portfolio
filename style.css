@@ -25,11 +25,21 @@
 .header-list {
   display: flex;
   padding-right: 400px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .header-list nav {
   padding-right: 70px;
+}
+
+#contact:hover {
+  opacity: 0.5;
+  color: red;
+}
+
+#play:hover {
+  opacity: 0.5;
+  color: red;
 }
 
 .container {
@@ -49,6 +59,47 @@
   right: 0;
   margin: auto;
   transition: 0.4s;
+}
+
+.playGame {
+  position: absolute;
+  height: 60vh;
+  width: 70%;
+  background-color: rgb(248, 244, 244);
+  top: 3%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 50%;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin: 15vh auto;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 10px 0 #d1483e;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+.btn:active {
+  box-shadow: 0 5px 0 #d1483e;
 }
 
 .hidden {
@@ -112,19 +163,23 @@
   font-size: 20px;
 }
 
+.intro a {
+  font-size: 20px;
+}
+
 .book {
   color: red;
   cursor: pointer;
 }
 
 footer {
-  height: 30vh;
+  height: 20vh;
   background-color: rgb(117, 242, 215);
 }
 
 .footer-list h2 {
   text-align: center;
-  padding-top: 60px;
+  padding-top: 20px;
 }
 
 .footer-list p {
